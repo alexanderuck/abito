@@ -219,13 +219,13 @@ h2 {
   line-height: 140%;
 }
 .author {
-    min-width: 264px;
+  min-width: 264px;
 }
 .single-price {
   font-size: 24px;
-line-height: 28px;
-display: block;
-margin-bottom: 25px;
+  line-height: 28px;
+  display: block;
+  margin-bottom: 25px;
 }
 .author-wrapper {
   display: flex;
@@ -252,7 +252,7 @@ margin-bottom: 25px;
 }
 .author-status {
   font-size: 12px;
-line-height: 14px;
+  line-height: 14px;
 }
 .autor-avatar {
   width: 50px;
@@ -260,17 +260,17 @@ line-height: 14px;
   object-fit: cover;
   border-radius: 50%;
 }
-.button-block{
+.button-block {
   display: block;
   width: 100%;
   height: 54px;
   margin-bottom: 14px;
   border: none;
 }
-.button-succes{
-  background: #14B4BE;
+.button-succes {
+  background: #14b4be;
   border-radius: 5px;
-  color: #FFF;
+  color: #fff;
 }
 
 /* /.content single */
