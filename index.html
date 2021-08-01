@@ -70,32 +70,33 @@
             <!-- Навигация -->
             <div class="navbar-panel">
 
-               <button class="close-menu"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M1 1L31 31M1 31L31 1" stroke="black" />
-               </svg></button>
-              
+               <button class="close-menu"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 1L31 31M1 31L31 1" stroke="black" />
+                  </svg></button>
+
 
                <nav class="navbar-menu">
                   <!-- Меню -->
                   <ul class="menu">
                      <!-- Пункты меню -->
                      <li class="menu-item">
-                        <a href="./index.html" class="menu-link">Авто</a>
+                        <a href="./index.html" class="menu-link text-animation-color">Авто</a>
                      </li>
                      <li class="menu-item">
-                        <a href="./index.html" class="menu-link">Недвижимость</a>
+                        <a href="./index.html" class="menu-link text-animation-color">Недвижимость</a>
                      </li>
-                     <li class="menu-item">
+                     <li class="menu-item text-animation-color">
                         <a href="./index.html" class="menu-link">Работа</a>
                      </li>
-                     <li class="menu-item">
+                     <li class="menu-item text-animation-color">
                         <a href="./index.html" class="menu-link">Услуги</a>
                      </li>
                   </ul>
                </nav>
                <div class="button-group">
-                  <a href="#" class="button button-link">Вход и регистрация</a>
-                  <a href="#" class="button button-primary">Подать объявление</a>
+                  <a href="./index.html" class="button button-link text-animation-color">Вход и регистрация</a>
+                  <a href="./index.html" class="button button-primary button-hover">Подать объявление</a>
                </div>
                <!-- /.button-group -->
             </div>
@@ -155,8 +156,22 @@
                         <h3 class="card-title">Электросамокат Kugoo S3</h3>
                      </a>
                      <button class="like">
-                        <img src="img/icon/like.svg" alt="like">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g clip-path="url(#clip0)">
+                              <path
+                                 d="M13.81 2.12631C13.0336 1.28414 11.9681 0.820312 10.8097 0.820312C9.94389 0.820312 9.15092 1.09406 8.45284 1.63387C8.10059 1.90636 7.78141 2.23972 7.5 2.62882C7.2187 2.23984 6.89941 1.90636 6.54705 1.63387C5.84908 1.09406 5.05611 0.820312 4.19025 0.820312C3.03188 0.820312 1.96632 1.28414 1.18984 2.12631C0.42263 2.95864 0 4.09573 0 5.32825C0 6.59683 0.472755 7.75806 1.48773 8.98281C2.39571 10.0784 3.70068 11.1905 5.21187 12.4783C5.72788 12.9181 6.31279 13.4166 6.92013 13.9476C7.08057 14.0881 7.28645 14.1655 7.5 14.1655C7.71343 14.1655 7.91943 14.0881 8.07964 13.9478C8.68698 13.4167 9.27223 12.918 9.78848 12.478C11.2994 11.1904 12.6044 10.0784 13.5124 8.9827C14.5274 7.75806 15 6.59683 15 5.32814C15 4.09573 14.5774 2.95864 13.81 2.12631Z"
+                                 fill="#256EEB" />
+                           </g>
+                           <defs>
+                              <clipPath id="clip0">
+                                 <rect width="15" height="15" fill="white" />
+                              </clipPath>
+                           </defs>
+                        </svg>
+
+
                      </button>
+
                   </div>
                   <strong class="card-price">10 980 ₽</strong>
                   <p class="card-text">Казань, р-н Ново-Савиновский</p>
@@ -353,53 +368,60 @@
             </div>
             <!-- /.cards -->
          </main>
-
          <!-- Сайдбар -->
          <aside class="sidebar">
             <h4 class="page-title">Сервисы и услуги</h4>
-
             <div class="service">
-               <img src="img/icon/shipping.svg" alt="icon: shipping" class="service-image">
-               <h5 class="service-title">Доставка</h5>
-               <p class="service-text">Проверка при получении и возможность бесплатно вернуть товар</p>
+               <ul class="service-menu">
+                  <li class="service-menu-item">
+                     <img src="img/icon/shipping.svg" alt="icon: shipping" class="service-image">
+                     <a href="./index.html" class="service-link text-animation-color">
+                        <h5 class="service-title">Доставка</h5>
+                        <p class="service-text">Проверка при получении и возможность бесплатно вернуть товар</p>
+                     </a>
+                  </li>
+                  <li class="service-menu-item">
+                     <img src="img/icon/car.svg" alt="icon: car" class="service-image">
+                     <a href="./index.html" class="service-link text-animation-color">
+                        <h5 class="service-title">Автотека</h5>
+                        <p class="service-text">Отчёт с историей авто: пробег, владельцы, сведения о залоге, ДТП и
+                           ремонтах
+                        </p>
+                     </a>
+                  </li>
+                  <li class="service-menu-item">
+                     <img src="img/icon/home.svg" alt="icon: home" class="service-image">
+                     <a href="./index.html" class="service-link text-animation-color">
+                        <h5 class="service-title">Онлайн-бронирование жилья</h5>
+                        <p class="service-text">Посуточная аренда квартир и домов: большой выбор вариантов для поездок
+                           по
+                           России
+                        </p>
+                     </a>
+                  </li>
+               </ul>
             </div>
-            <!-- /.service -->
-
-            <div class="service">
-               <img src="img/icon/car.svg" alt="icon: car" class="service-image">
-               <h5 class="service-title">Автотека</h5>
-               <p class="service-text">Отчёт с историей авто: пробег, владельцы, сведения о залоге, ДТП и ремонтах</p>
-            </div>
-            <!-- /.service -->
-
-            <div class="service">
-               <img src="img/icon/home.svg" alt="icon: home" class="service-image">
-               <h5 class="service-title">Онлайн-бронирование жилья</h5>
-               <p class="service-text">Посуточная аренда квартир и домов: большой выбор вариантов для поездок по России
-               </p>
-            </div>
-            <!-- /.service -->
-
             <hr color="#E5E5E5">
             <footer class="footer">
                <p class="footer-text">© ООО «Абито», 2011–2021</p>
                <ul class="footer-menu">
                   <li class="footer-menu-item">
-                     <a href="#" class="footer-text">Политика конфиденциальности</a>
+                     <a href="./index.html" class="footer-text text-animation-color">Политика конфиденциальности</a>
                   </li>
                   <li class="footer-menu-item">
-                     <a href="#" class="footer-text">Обработка данных</a>
+                     <a href="./index.html" class="footer-text text-animation-color">Обработка данных</a>
                   </li>
                </ul>
+
                <ul class="footer-menu">
                   <li class="footer-menu-item">
-                     <a href="#" class="footer-link">Реклама на сайте</a>
+                     <a href="./index.html" class="footer-link text-animation-color">Реклама на сайте</a>
                   </li>
                   <li class="footer-menu-item">
-                     <a href="#" class="footer-link">Вакансии</a>
+                     <a href="./index.html" class="footer-link text-animation-color">Вакансии</a>
                   </li>
                   <li class="footer-menu-item">
-                     <a href="#" class="footer-link">Помощь</a>
+                     <a href="./index.html" class="footer-link text-animation-color">Помощь</a>
                   </li>
                </ul>
             </footer>

@@ -52,6 +52,7 @@ body {
 }
 .button-link {
   color: inherit;
+  margin-right: 7px;
 }
 .button-primary {
   background: #256eeb;
@@ -86,6 +87,7 @@ body {
   padding-right: 17px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .search-button-text {
   margin-left: 5px;
@@ -93,6 +95,30 @@ body {
   line-height: 19px;
 }
 /* /.header */
+
+/* footer */
+.footer-text {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 16px;
+  color: #c4c4c4;
+  margin-bottom: 5px;
+}
+.footer-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 11px;
+}
+.footer-link {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 12px;
+  line-height: 14px;
+}
+/* /.footer */
 
 /* content index*/
 .page-content {
@@ -174,6 +200,18 @@ h2 {
   margin-top: 25px;
   margin-bottom: 27px;
 }
+.service-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.service-menu-item:not(:last-child) {
+  padding-bottom: 28px;
+}
+.service-link {
+  color: inherit;
+  text-decoration: none;
+}
 .service-title {
   font-weight: bold;
   font-size: 14px;
@@ -182,34 +220,11 @@ h2 {
   margin-bottom: 5px;
 }
 .service-text {
-  max-width: 265px;
+  max-width: 240px;
   margin-top: 5px;
+  margin-bottom: 0;
 }
 /* /.sidebar */
-
-/* footer */
-.footer-text {
-  display: inline-block;
-  font-size: 14px;
-  line-height: 16px;
-  color: #c4c4c4;
-  margin-bottom: 5px;
-}
-.footer-menu {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  margin-bottom: 16px;
-}
-.footer-link {
-  color: inherit;
-  text-decoration: none;
-  display: inline-block;
-  margin-bottom: 5px;
-  font-size: 12px;
-  line-height: 14px;
-}
-/* /.footer */
 /* /.content index */
 
 /* content single */
@@ -332,12 +347,22 @@ h2 {
 /* /.slider */
 
 /* animation */
-.menu-link:hover {
+.button-hover,
+.text-animation-color {
+  transition: 0.5s;
+}
+.button-hover:hover {
+  background-color: #004fd6;
+}
+.text-animation-color:hover {
   color: #dd2020ad;
 }
+.like:hover {
+  fill: red;
+}
 
-.footer-link:hover {
-  color: #dd2020ad;
+svg.like-svg {
+  fill: red;
 }
 
 /* /.animation */
