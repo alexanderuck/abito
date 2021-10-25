@@ -4,8 +4,7 @@
 ## Выполнил проект - Алекс Рук
 
 ### Технологии в проекте 
-- HTML
-- CSS
-- JavaScript
+- HTML5
+- CSS3
 - Normalize
-- Fancybox
+- JavaScript
